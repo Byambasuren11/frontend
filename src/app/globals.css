@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: url('/c6ad2ec1fbc13a378d668b5c58a427ed.gif') no-repeat center center fixed;
+  background-size: cover;
+}
