@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export const Rules = () => {
   return (
-    <div className="flex justify-between items-center border border-gray-200 p-2 rounded-lg mb-2">
+    <div className="flex justify-between items-center border border-gray-200 p-2 rounded-lg mb-2 bg-opacity-20 bg-white text-white ">
       <div className="flex gap-4 items-center">
         <p>1</p>
         <p className="p-1">
@@ -14,7 +14,7 @@ export const Rules = () => {
       </div>
       <div className="flex gap-10 items-center">
         <p>2025-08-14</p>
-        <Button className="bg-blue-200">Үзэх</Button>
+        <Button className="bg-amber-400 text-white">Үзэх</Button>
       </div>
     </div>
   );

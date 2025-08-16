@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background: url('/c6ad2ec1fbc13a378d668b5c58a427ed.gif') no-repeat center center fixed;
-  background-size: cover;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgb(4 80 155) 100%
+  );
 }

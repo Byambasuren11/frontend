@@ -8,7 +8,7 @@ export const InfoCards = () => {
   const router = useRouter();
   return (
     <div
-      className="bg-gray-100 rounded-xl w-[350px] h-[400px] overflow-hidden shadow-md transform transition duration-300 hover:-translate-y-2 hover:shadow-lg group cursor-pointer"
+      className="bg-gray-100 rounded-xl w-full  h-[400px] overflow-hidden shadow-md transform transition duration-300 hover:-translate-y-2 hover:shadow-lg group cursor-pointer"
       onClick={() => router.push("/information/id")}
     >
       <div className="overflow-hidden h-48 rounded-t-xl">

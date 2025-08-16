@@ -1,0 +1,1 @@
+document.querySelector("#mymap > svg:nth-child(3) > g")

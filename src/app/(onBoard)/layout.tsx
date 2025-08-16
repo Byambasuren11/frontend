@@ -7,12 +7,12 @@ export default function RootLayout1({
   children: React.ReactNode;
 }>) {
   return (
-    <div className=" flex justify-center items-center ">
+    <div className=" flex justify-center items-center flex-col ">
+      <Header />
       <div className="max-w-[1440px] min-w-[1280px] flex flex-col ">
-        <Header />
         {children}
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
